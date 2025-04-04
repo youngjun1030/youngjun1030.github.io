@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>온라인 서점 회원가입 페이지</h1>
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>회원 기본 정보</legend>
+            아이디 : <input type="text" name="id" placeholder="아이디 입력"></div>
+            <br>
+            비밀번호 : <input type="password" name="pwd"></div>
+            <br>
+            이름 : <input type="text" name="username"></div>
+        </fieldset>
+
+        <fieldset>
+            <legend>연락처</legend>
+            이메일 : <input type="email" name="email" placeholder="email@gmail.com"> <br>
+            휴대전화 : <input type="tel" name="tel" placeholder="010-XXXX-XXXX">
+        </fieldset>
+
+        <fieldset>
+            <legend>추가 정보</legend>
+            생년월일 : <input type="date" name="birthday"> <br>
+            성별 : <input type="radio" name="gender" value="m">남자
+                   <input type="radio" name="gender" value="w">여자
+                   <input type="radio" name="gender" value="n" checked>선택하지 않음 <br>
+            관심사 : <input type="checkbox" name="java" checked>Java
+                    <input type="checkbox" name="python">Python
+                    <input type="checkbox" name="html">HTML
+                    <input type="checkbox" name="css">CSS
+                    <input type="checkbox" name="javascript">JavaScript <br>
+            본인 사진 : <input type="file" name="my_picture">
+        </fieldset>
+        <input type="reset"> <input type="submit" value="회원가입">
+    </form>
+</body>
+</html>
